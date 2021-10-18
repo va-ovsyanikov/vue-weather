@@ -22,7 +22,7 @@
     <ul class="sidenav" id="mobile-demo" ref="sidenav">
       <li><router-link to="/">Home</router-link></li>
       <li>
-        <router-link to="/page">Page</router-link>
+        <router-link :to="{ path: 'page', query: { city: GET_QUERY } }">Page</router-link>
       </li>
     </ul>
     <div class="weather z-depth-3">
