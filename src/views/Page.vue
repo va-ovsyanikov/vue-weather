@@ -55,7 +55,6 @@ export default {
     window.M.updateTextFields();
     this.query = this.$route.query.city;
     this.FETCH_WEATHER_FORECAST(this.query);
-    this.isLoading = false
   },
 };
 </script>
